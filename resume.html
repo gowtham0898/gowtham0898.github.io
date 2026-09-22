@@ -1,1 +1,815 @@
+<!doctype html>
 
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Gowtham S - Software Engineer .NET Backend Resume</title>
+
+    <style>
+        @page {
+            size: A4;
+            margin: 12mm 14mm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #202124;
+            font-size: 9.6pt;
+            line-height: 1.28;
+        }
+
+        main {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 22pt;
+            letter-spacing: .2px;
+        }
+
+        .contact {
+            margin-top: 3px;
+            font-size: 9pt;
+        }
+
+        h2 {
+            font-size: 11pt;
+            margin: 11px 0 4px;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #444;
+            text-transform: uppercase;
+            letter-spacing: .7px;
+        }
+
+        .summary {
+            margin: 0;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 135px 1fr;
+            column-gap: 10px;
+            row-gap: 2px;
+        }
+
+        .skill-label {
+            font-weight: 700;
+        }
+
+        .job {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+
+        .job-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .company {
+            font-weight: 700;
+        }
+
+        .role {
+            font-weight: 700;
+        }
+
+        .date {
+            white-space: nowrap;
+        }
+
+        ul {
+            margin: 3px 0 0 17px;
+            padding: 0;
+        }
+
+        li {
+            margin: 1.5px 0;
+        }
+
+        .project {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+
+        .project-title {
+            font-weight: 700;
+        }
+
+        .project-meta {
+            font-style: italic;
+            font-size: 9pt;
+        }
+
+        p {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Gowtham S</h1>
+        <div class="contact">
+            Bengaluru, Karnataka, India |
+            8618925211 |
+            gowtham.subramani0698@gmail.com |
+            https://www.linkedin.com/in/gowthams0898 |
+            https://github.com/gowtham0898
+        </div>
+
+        <h2>Professional Summary</h2>
+
+        <p class="summary">
+            Backend Software Engineer with <strong>4.5+ years of experience designing and owning
+                high-volume, event-driven services</strong> in <strong>C#, .NET, ASP.NET Core, MongoDB, Apache Kafka,
+                and SQL databases</strong>. Proven track record of building configuration-driven processing
+            frameworks, cutting query latency through <strong>MongoDB aggregation and indexing</strong>, and
+            running reliable <strong>Kafka-based asynchronous pipelines</strong> in production. Comfortable owning
+            features end-to-end — from low-level design through production troubleshooting — and mentoring
+            junior engineers along the way.
+        </p>
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <div style="font-weight: 700;">Backend:</div>
+            <div>C#, .NET, .NET Core, ASP.NET Core, REST APIs, Web API, Entity Framework Core, ASP.NET MVC</div>
+
+            <div class="skill-label">Databases</div>
+            <div>MongoDB, MariaDB, MySQL, SQL Server, Redis</div>
+
+            <div class="skill-label">Messaging & Architecture</div>
+            <div>Apache Kafka, Kafka Consumers, Microservices, Event-Driven Architecture, Asynchronous Processing</div>
+
+            <div class="skill-label">Cloud & DevOps</div>
+            <div>Azure, Docker, Kubernetes, CI/CD, Azure DevOps</div>
+
+            <div class="skill-label">Programming</div>
+            <div>Async/Await, Task-based Concurrency, Multithreading, Data Structures & Algorithms</div>
+
+            <div class="skill-label">Database & Performance</div>
+            <div>MongoDB Aggregation, Database Indexing, Query Optimization, Batch Processing, Performance Optimization
+            </div>
+
+            <div class="skill-label">Engineering</div>
+            <div>LLD, System Design, API Design, Dependency Injection, Reflection, Code Review, Production
+                Troubleshooting</div>
+
+            <div class="skill-label">Tools</div>
+            <div>Visual Studio, VS Code, Git, Bitbucket, GitHub, JIRA, Postman</div>
+
+        </div>
+
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+
+            <div class="job-head">
+
+                <div>
+                    <span class="company">Grasko Solution Private Limited</span>
+                    &nbsp;—&nbsp;
+                    <span class="role">Software Engineer</span>
+                </div>
+
+                <div class="date">Apr 2023 - Present</div>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    Develop backend services for the <strong>healthcare scheduling module of the KanTime
+                        product</strong>, serving <strong>50+ active clients / 20K+ scheduled visits per
+                        week</strong>, using C#, .NET, ASP.NET Core, REST APIs, MongoDB, MariaDB, and Apache
+                    Kafka.
+                </li>
+
+                <li>
+                    Implement scheduling workflows covering <strong>schedule generation, recurring schedules,
+                        validations, demand/frequency, caregiver capacity, client/episode processing, and schedule
+                        reconciliation</strong>, reducing manual scheduling effort by <strong>~30%</strong>.
+                </li>
+
+                <li>
+                    Develop and optimize <strong>MongoDB aggregation pipelines, queries, and database indexes</strong>
+                    for complex, high-volume scheduling operations, cutting average query response time by
+                    <strong>~35%</strong> across a collection of <strong>5M+</strong> records.
+                </li>
+
+                <li>
+                    Implement <strong>Kafka consumers, message handlers, asynchronous processing, retry handling,
+                        and reliable message commits</strong> for event-driven workflows, processing
+                    <strong>100K+ messages per day</strong> with <strong>~25%</strong> reduction in failed/duplicate
+                    message handling.
+                </li>
+
+                <li>
+                    Develop <strong>cross-database synchronization and batch-processing workflows</strong> between
+                    MongoDB
+                    and MariaDB, improving batch throughput by <strong>~40%</strong> and cutting sync job runtime
+                    from <strong>45 to 20 minutes</strong>.
+                </li>
+
+                <li>
+                    Own <strong>low-level design, production troubleshooting, code reviews, technical discussions,
+                        and mentoring of 2 junior engineers</strong> while resolving API, database, Kafka,
+                    concurrency, and performance issues, including <strong>15+ production incidents</strong>
+                    resolved within SLA.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="job">
+
+            <div class="job-head">
+
+                <div>
+                    <span class="company">EpicMinds IT</span>
+                    &nbsp;—&nbsp;
+                    <span class="role">Associate Software Developer</span>
+                </div>
+
+                <div class="date">Apr 2022 - Apr 2023</div>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed backend and application features using <strong>C#, .NET Core, ASP.NET MVC,
+                        Entity Framework Core, REST APIs, MySQL, and SQL Server</strong> for a finance platform
+                    used by <strong>200+ internal/external users</strong>.
+                </li>
+
+                <li>
+                    Implemented <strong>20+ REST API endpoints</strong>, business logic, database operations, and
+                    application components for finance-domain applications.
+                </li>
+
+                <li>
+                    Improved existing application components through <strong>code optimization, query improvements,
+                        performance tuning, code reviews, debugging, and production support</strong>, reducing
+                    average page/report load time by <strong>~25%</strong>.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <h2>Selected Projects</h2>
+
+        <div class="project">
+
+            <div class="project-title">
+                Healthcare Scheduling Module - KanTime
+            </div>
+
+            <div class="project-meta">
+                Grasko Solution Private Limited | Apr 2023 - Present
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed backend functionality for a <strong>healthcare scheduling platform</strong>
+                    used to coordinate clinician visits for <strong>10,000+ patients</strong> based on patient and
+                    service requirements.
+                </li>
+
+                <li>
+                    Implemented complex scheduling workflows including <strong>schedule generation,
+                        recurring scheduling, business validations, demand/frequency, caregiver capacity,
+                        and schedule reconciliation</strong>, cutting schedule-generation time by <strong>~30%</strong>.
+                </li>
+
+                <li>
+                    Optimized <strong>MongoDB aggregation pipelines and database indexes</strong> for complex
+                    queries involving filtering, lookup, unwind, projection, and large datasets, reducing query
+                    time from <strong>2s to 300ms</strong>.
+                </li>
+
+                <li>
+                    Implemented <strong>Kafka-based event-driven processing</strong> and high-volume data workflows
+                    using asynchronous processing, batching, query optimization, and database indexing, supporting
+                    <strong>100K+ events per day</strong>.
+                </li>
+
+                <li>
+                    <strong>Technology:</strong> C#, .NET, ASP.NET Core, REST APIs, MongoDB, Apache Kafka,
+                    MariaDB, SQL Server.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="project">
+
+            <div class="project-title">
+                Report Engine Service - Dynamic Reporting Framework
+            </div>
+
+            <div class="project-meta">
+                Grasko Solution Private Limited | .NET Backend / Event-Driven Architecture
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed a <strong>generic, configuration-driven report processing engine</strong>
+                    using .NET, Apache Kafka, MongoDB, MariaDB, and Elasticsearch, with event mappings,
+                    filters, transformations, and destination storage controlled through configuration.
+                </li>
+
+                <li>
+                    Designed a <strong>dynamic data-mapping framework</strong> supporting conditional rules,
+                    type conversions, object/list mappings, nested iterations, and configurable actions,
+                    cutting time to onboard a new report type from <strong>3 days to 4 hours</strong>.
+                </li>
+
+                <li>
+                    Built configurable <strong>external data enrichment</strong> using Dependency Injection and
+                    Reflection
+                    to dynamically resolve repositories and invoke configured methods at runtime.
+                </li>
+
+                <li>
+                    Implemented generic persistence supporting <strong>MongoDB, MariaDB, and Elasticsearch</strong>,
+                    including configurable upsert and bulk update operations.
+                </li>
+
+                <li>
+                    Developed reusable <strong>Kafka event handlers and processing pipelines</strong> with an
+                    extensible architecture for introducing new event types, mappings, transformations, and storage
+                    operations.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="project">
+
+            <div class="project-title">
+                KSFC - Karnataka State Finance Corporation
+            </div>
+
+            <div class="project-meta">
+                EpicMinds IT | Apr 2022 - Apr 2023
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed finance-domain features across <strong>REST APIs, backend services, frontend components,
+                        and database layers</strong>.
+                </li>
+
+                <li>
+                    Implemented business functionality using <strong>.NET Core, ASP.NET MVC, Entity Framework Core,
+                        MySQL, SQL Server, and React JS</strong>.
+                </li>
+
+                <li>
+                    Worked on application modernization, code optimization, database improvements,
+                    and maintenance of existing components.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <h2>Education</h2>
+
+        <p>
+            <strong>B.Tech</strong> - JSS Academy of Technical Education, Bengaluru | 2020 | CGPA: 7.2
+        </p>
+
+    </main>
+
+</body>
+
+</html>
+
+<!-- <!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Gowtham S - Software Engineer .NET Backend Resume</title>
+
+    <style>
+        @page {
+            size: A4;
+            margin: 12mm 14mm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #202124;
+            font-size: 9.6pt;
+            line-height: 1.28;
+        }
+
+        main {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 22pt;
+            letter-spacing: .2px;
+        }
+
+        .contact {
+            margin-top: 3px;
+            font-size: 9pt;
+        }
+
+        h2 {
+            font-size: 11pt;
+            margin: 11px 0 4px;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #444;
+            text-transform: uppercase;
+            letter-spacing: .7px;
+        }
+
+        .summary {
+            margin: 0;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 135px 1fr;
+            column-gap: 10px;
+            row-gap: 2px;
+        }
+
+        .skill-label {
+            font-weight: 700;
+        }
+
+        .job {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+
+        .job-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .company {
+            font-weight: 700;
+        }
+
+        .role {
+            font-weight: 700;
+        }
+
+        .date {
+            white-space: nowrap;
+        }
+
+        ul {
+            margin: 3px 0 0 17px;
+            padding: 0;
+        }
+
+        li {
+            margin: 1.5px 0;
+        }
+
+        .project {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+
+        .project-title {
+            font-weight: 700;
+        }
+
+        .project-meta {
+            font-style: italic;
+            font-size: 9pt;
+        }
+
+        p {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Gowtham S</h1>
+        <div class="contact">
+            Bengaluru, Karnataka, India |
+            8618925211 |
+            gowtham.subramani0698@gmail.com |
+            https://www.linkedin.com/in/gowthams0898 |
+            https://github.com/gowtham0898
+        </div>
+
+        <h2>Professional Summary</h2>
+
+        <p class="summary">
+            Software Engineer with <strong>4.5+ years of backend development experience</strong> specializing in
+            <strong>C#, .NET, ASP.NET Core, REST APIs, MongoDB, Apache Kafka, SQL databases, microservices,
+                and event-driven systems</strong>. Experienced in building scalable backend services,
+            configuration-driven
+            processing frameworks, asynchronous workflows, database integrations, and high-volume data processing.
+            Strong hands-on experience in <strong>MongoDB aggregation, database indexing, query optimization,
+                Kafka consumers, concurrency, performance optimization, and production troubleshooting</strong>.
+        </p>
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <div style="font-weight: 700;">Backend:</div>
+            <div>C#, .NET, .NET Core, ASP.NET Core, REST APIs, Web API, Entity Framework Core, ASP.NET MVC</div>
+
+            <div class="skill-label">Databases</div>
+            <div>MongoDB, MariaDB, MySQL, SQL Server, Redis</div>
+
+            <div class="skill-label">Messaging & Architecture</div>
+            <div>Apache Kafka, Kafka Consumers, Microservices, Event-Driven Architecture, Asynchronous Processing</div>
+
+            <div class="skill-label">Cloud & DevOps</div>
+            <div>Azure, Docker, Kubernetes, CI/CD, Azure DevOps</div>
+
+            <div class="skill-label">Programming</div>
+            <div>Async/Await, Task-based Concurrency, Multithreading, Data Structures & Algorithms</div>
+
+            <div class="skill-label">Database & Performance</div>
+            <div>MongoDB Aggregation, Database Indexing, Query Optimization, Batch Processing, Performance Optimization
+            </div>
+
+            <div class="skill-label">Engineering</div>
+            <div>LLD, System Design, API Design, Dependency Injection, Reflection, Code Review, Production
+                Troubleshooting</div>
+
+            <div class="skill-label">Tools</div>
+            <div>Visual Studio, VS Code, Git, Bitbucket, GitHub, JIRA, Postman</div>
+
+        </div>
+
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+
+            <div class="job-head">
+
+                <div>
+                    <span class="company">Grasko Solution Private Limited</span>
+                    &nbsp;—&nbsp;
+                    <span class="role">Software Engineer</span>
+                </div>
+
+                <div class="date">Apr 2023 - Present</div>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    Develop backend services for the <strong>healthcare scheduling module of the KanTime
+                        product</strong>
+                    using C#, .NET, ASP.NET Core, REST APIs, MongoDB, MariaDB, and Apache Kafka.
+                </li>
+
+                <li>
+                    Implement scheduling workflows covering <strong>schedule generation, recurring schedules,
+                        validations, demand/frequency, caregiver capacity, client/episode processing, and schedule
+                        reconciliation</strong>.
+                </li>
+
+                <li>
+                    Develop and optimize <strong>MongoDB aggregation pipelines, queries, and database indexes</strong>
+                    for complex, high-volume scheduling operations.
+                </li>
+
+                <li>
+                    Implement <strong>Kafka consumers, message handlers, asynchronous processing, retry handling,
+                        and reliable message commits</strong> for event-driven workflows.
+                </li>
+
+                <li>
+                    Develop <strong>cross-database synchronization and batch-processing workflows</strong> between
+                    MongoDB
+                    and MariaDB, focusing on performance, memory efficiency, throughput, and reliability.
+                </li>
+
+                <li>
+                    Contribute to <strong>low-level design, production troubleshooting, code reviews, technical
+                        discussions,
+                        and mentoring</strong> while resolving API, database, Kafka, concurrency, and performance
+                    issues.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="job">
+
+            <div class="job-head">
+
+                <div>
+                    <span class="company">EpicMinds IT</span>
+                    &nbsp;—&nbsp;
+                    <span class="role">Associate Software Developer</span>
+                </div>
+
+                <div class="date">Apr 2022 - Apr 2023</div>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed backend and application features using <strong>C#, .NET Core, ASP.NET MVC,
+                        Entity Framework Core, REST APIs, MySQL, and SQL Server</strong>.
+                </li>
+
+                <li>
+                    Implemented REST APIs, business logic, database operations, and application components
+                    for finance-domain applications.
+                </li>
+
+                <li>
+                    Improved existing application components through <strong>code optimization, query improvements,
+                        performance tuning, code reviews, debugging, and production support</strong>.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <h2 style="margin-top: 13rem !important;">Selected Projects</h2>
+
+        <div class="project">
+
+            <div class="project-title">
+                Healthcare Scheduling Module - KanTime
+            </div>
+
+            <div class="project-meta">
+                Grasko Solution Private Limited | Apr 2023 - Present
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed backend functionality for a <strong>healthcare scheduling platform</strong>
+                    used to coordinate clinician visits based on patient and service requirements.
+                </li>
+
+                <li>
+                    Implemented complex scheduling workflows including <strong>schedule generation,
+                        recurring scheduling, business validations, demand/frequency, caregiver capacity,
+                        and schedule reconciliation</strong>.
+                </li>
+
+                <li>
+                    Optimized <strong>MongoDB aggregation pipelines and database indexes</strong> for complex
+                    queries involving filtering, lookup, unwind, projection, and large datasets.
+                </li>
+
+                <li>
+                    Implemented <strong>Kafka-based event-driven processing</strong> and high-volume data workflows
+                    using asynchronous processing, batching, query optimization, and database indexing.
+                </li>
+
+                <li>
+                    <strong>Technology:</strong> C#, .NET, ASP.NET Core, REST APIs, MongoDB, Apache Kafka,
+                    MariaDB, SQL Server.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="project">
+
+            <div class="project-title">
+                Report Engine Service - Dynamic Reporting Framework
+            </div>
+
+            <div class="project-meta">
+                Grasko Solution Private Limited | .NET Backend / Event-Driven Architecture
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed a <strong>generic, configuration-driven report processing engine</strong>
+                    using .NET, Apache Kafka, MongoDB, MariaDB, and Elasticsearch, with event mappings,
+                    filters, transformations, and destination storage controlled through configuration.
+                </li>
+
+                <li>
+                    Designed a <strong>dynamic data-mapping framework</strong> supporting conditional rules,
+                    type conversions, object/list mappings, nested iterations, and configurable actions,
+                    reducing hardcoded processing logic for new reporting use cases.
+                </li>
+
+                <li>
+                    Built configurable <strong>external data enrichment</strong> using Dependency Injection and
+                    Reflection
+                    to dynamically resolve repositories and invoke configured methods at runtime.
+                </li>
+
+                <li>
+                    Implemented generic persistence supporting <strong>MongoDB, MariaDB, and Elasticsearch</strong>,
+                    including configurable upsert and bulk update operations.
+                </li>
+
+                <li>
+                    Developed reusable <strong>Kafka event handlers and processing pipelines</strong> with an
+                    extensible architecture for introducing new event types, mappings, transformations, and storage
+                    operations.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="project">
+
+            <div class="project-title">
+                KSFC - Karnataka State Finance Corporation
+            </div>
+
+            <div class="project-meta">
+                EpicMinds IT | Apr 2022 - Apr 2023
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed finance-domain features across <strong>REST APIs, backend services, frontend components,
+                        and database layers</strong>.
+                </li>
+
+                <li>
+                    Implemented business functionality using <strong>.NET Core, ASP.NET MVC, Entity Framework Core,
+                        MySQL, SQL Server, and React JS</strong>.
+                </li>
+
+                <li>
+                    Worked on application modernization, code optimization, database improvements,
+                    and maintenance of existing components.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <h2>Education</h2>
+
+        <p>
+            <strong>B.Tech</strong> - JSS Academy of Technical Education, Bengaluru | 2020 | CGPA: 7.2
+        </p>
+
+    </main>
+
+</body>
+
+</html> -->
